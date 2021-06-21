@@ -11,7 +11,6 @@ WORKDIR /home/node/app
 
 # (Optional) Download extra utilities to customize our base image
 
-
 # Adding and installing project dependencies
 COPY --chown=node:node package.json .
 RUN npm install
