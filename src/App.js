@@ -7,8 +7,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Delete content here. Edit <code>src/App.js</code> and save to reload.
-          Jelou! There are nothing
+          VERSION 2. Checking whole Workflow
+          Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
