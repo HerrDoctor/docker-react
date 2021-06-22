@@ -42,6 +42,9 @@ FROM nginx
 
 #USER node
 
+# Exposing ports
+EXPOSE 80
+
 # Establishing working directory
 WORKDIR /app
 
@@ -52,7 +55,5 @@ WORKDIR /app
 #COPY --from=builder /home/node/app/build /usr/share/nginx/html
 # No custom name: (stage number 0)
 COPY --from=0 /home/node/app/build /usr/share/nginx/html
-
-# Exposing ports
 
 # Tell the image what to do when it starts as a container
